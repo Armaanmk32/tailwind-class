@@ -1,0 +1,33 @@
+.header{
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    background-color: rgb(0, 199, 225);
+    
+
+}
+.header ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 40px;
+    padding-right:70px ;
+    
+}
+.header ul{
+    align-content: center;
+    padding-left: 700px;
+    font-size: 15px;
+}
+.header h1{
+    margin-right: 40px;
+   
+}
+.main 
+form {
+    padding-left: 500px;
+}
+    
+    
+}

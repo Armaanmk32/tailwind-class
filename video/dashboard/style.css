@@ -1,0 +1,64 @@
+* {
+    padding: 0px;
+    margin: 0px;
+
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+</style>
+}
+.sidenav {
+    width: 22%;
+    height: 100vh;
+    background-color: rgb(55, 167, 212);
+    color: white;
+    border-right: 12px #fb8500 solid ;
+    position: fixed;
+
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+.active {
+    color: #023047;
+}
+.sidenav ul {
+    padding-top: 30px;
+    padding-left: 40px;
+    list-style: none;
+    font-size: 60px;
+}
+ul li {
+    padding-top: 30px;
+}
+ul li:hover {
+    color: orange;
+    text-align: center;
+} 
+.main {
+    display: grid;
+    column-gap: 30px;
+    margin-left: 25%;
+    grid-template-columns: repeat(3, 300px);
+}
+.main-box1 {
+    height:300px;
+    width: 300px;
+    background-color: #fb8500;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+.main-box2 {
+    height:300px;
+    width: 300px;
+    background-color: #ffb703;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+.main-box3 {
+    height:300px;
+    width: 300px;
+    background-color: #023047;
+    margin-top: 20px;
+    border-radius: 20px;
+}

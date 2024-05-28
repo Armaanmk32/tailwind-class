@@ -1,0 +1,11 @@
+.header  {
+    border: 6px yellow solid;
+    
+}
+.main {
+    border: 6px cyan solid;
+    margin-top: 40px;
+    padding: 20px;
+    height: 160px;
+    border-radius: 30px;
+}

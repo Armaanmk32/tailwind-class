@@ -1,0 +1,38 @@
+.header img{
+    width: 250px;
+    
+}
+.header ul{
+    display: flex;
+    gap: 80px;
+    font-size: 25px;
+    list-style: none;
+    
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 40px;
+}
+.main{
+    display: flex;
+    padding-top: 60px;
+    justify-content: space-evenly;
+    height: 500px;
+    color: white;
+    background-color: orangered;
+}
+.main-left, .main-right {
+    width: 400px;
+}
+.main-left h1{
+    font-size: 60px;
+}
+.main-right iframe {
+    width: 480px;
+    height: 300px;
+    border-top-right-radius: 20px;
+    border-top-left-radius:20px ;
+    border-top: 30px white solid;
+}

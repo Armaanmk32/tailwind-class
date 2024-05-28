@@ -1,0 +1,157 @@
+
+
+.parent {
+    align-items: center;
+    background-color: #fdf0d5;
+    display: flex;
+    padding: 5px 10px;
+   
+    
+    align-items: center;
+}
+.header{
+    display: flex;
+    padding-left:850px;
+    gap: 30px;
+    align-items: center;
+    
+}
+
+.post-parent {
+    display: flex;
+    gap: 60px;
+}
+.header ul{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+.header button {
+    background-color: blue;
+    color: white;
+    border-radius: 6px;
+}
+.main {
+    display: flex;
+    width: 100%;
+    height: 500px;
+    background-color: #073b4c;
+}
+.main-right {
+    width: 400px;
+    font-size: 20px;
+    padding: 80px 30px;
+    color: white;
+    padding-left: 100px;
+    
+}
+.main-right button{
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+}
+.footer {
+    position: relative;
+}
+.main-left img {
+    
+    padding-top: 100px;
+    padding-left: 390px;
+    width: 330px;
+    height: 360px;
+    border-radius: 20px;
+}
+.footer-left {
+    padding: 100px 40px;
+}
+.footer-left img{
+    width: 100%;
+    height: 350px;
+}
+.down {
+    padding: 20px 30px;
+    background-color: #e5e5e5;
+    width: 650px;
+    height: 290px;
+    border-radius: 20px;
+    position: absolute;
+    left: 500px;
+    bottom: -30px;
+}
+.dowm button{
+    color: #073b4c;
+}
+.hoos {
+    display: flex;
+    padding-top: 100px;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+.hoos button{
+   
+   font-size: 20px;
+   padding: 30px;
+}
+.hoos-left img {
+    width: 450px;
+    height: 380px;
+}
+.hoos-right {
+    width: 300px;
+    height: 380px;
+    padding-left: 400px;
+
+}
+.post-parent {
+    gap: 40px;
+    padding: 30px;
+}
+.product1 {
+    border-radius: 22px;
+    width: 100%;
+    height:500px ;
+    
+   
+    margin: 18px;
+    
+}
+
+.product-parengt {
+    margin: 30px 50px;
+    display: flex;
+  
+    column-gap: 30px;
+}
+.product img {
+    margin-top: 30px;
+    width: 200px;
+    height: 190PX;
+    border-radius: 18px;
+}
+.product1 img {
+    width: 300px;
+    height: 360px;
+}
+
+.product{
+    text-align: center;
+    margin: 100px 2px;
+
+}
+.product1 h1 {
+    font-size: 20px;
+
+}
+.product h1{
+    font-size: 40px;
+    padding: 20px 1px;
+}
+.product1 p {
+   
+    line-height: 25px;
+}
+
+
+

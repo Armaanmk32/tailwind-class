@@ -1,0 +1,159 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family:"DM sans"
+}
+.header span {
+    color: #a27b5c;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+}
+.header ul {
+    display: flex;
+    gap: 20px;
+    list-style: none ;
+}
+.OderBtn {
+    background-color: #a27b5c;
+    padding: 17px 50px;
+    font-size: 20px;
+    color: white;
+    border: none;
+}
+.singinBtn{
+    background-color: white;
+    border: 2PX #a27b5c solid;
+    padding: 15px 50px;
+    font-size: 20px;
+    color: #a27b5c;
+    font-weight: bold;
+     
+}
+.main {
+    height: 600px;
+    background-color: #FCF7EF;
+}
+.main p {
+    text-align: center;
+}
+.main{
+    
+    padding: 70px;
+    background-color: #FCF7EF;
+    height: 300px;
+
+    margin-bottom: 400px;
+}
+.main h1{
+    
+    font-size: 96px;
+    padding: 20px;
+    text-align: center;
+}
+.main img{
+    width: 990px;
+    height: 400px;
+    padding-left: 70px;
+}
+.main h2, h6{
+
+    font-size: 30px;
+    margin-left: 69px;
+}
+.main h6{
+    color: rgb(159, 158, 158);
+    font-weight: 200;
+    
+}
+.blog img{
+    width: 261px;
+    height: 200px;
+}
+.blog{
+    display: flex;
+
+    margin-left: 150px;
+    margin-right: 150px;
+    border-top: 2px rgb(185, 185, 185) solid;
+    border-bottom: 2px rgb(185, 185, 185) solid;
+    padding: 20px;
+    gap: 40px;
+    margin-bottom: 80PX;
+    align-items: center;
+
+}
+.blog img{
+    width: 261px;
+    height: 200px;
+}
+.blog{
+    display: flex;
+
+    margin-left: 150px;
+    margin-right: 150px;
+    border-top: 2px rgb(185, 185, 185) solid;
+    border-bottom: 2px rgb(185, 185, 185) solid;
+    padding: 20px;
+    gap: 40px;
+    margin-bottom: 80PX;
+    align-items: center;
+
+}
+.footer {
+    background-color: black;
+    height: 500px;
+    color:white ;
+}
+.footer-address {
+    padding-top: 40px;
+    text-align: center;
+    border-bottom: 2px rgb(185, 185, 185) solid;
+    margin-left: 100px;
+    margin-right: 100px;
+
+
+}
+.footer-address h1 {
+    font-size: 70px;
+    padding-bottom: 30px;
+}
+.footer-address p{
+    padding-bottom: 20px;
+}
+.icon-parent{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 100px;
+
+}
+
+
+.icon-left {
+    display: flex;
+    gap: 30px;
+  
+}
+
+.icon-left p{
+    margin-top: 10px;
+    
+}
+.text {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 100px;
+}
+.text p{
+    padding-top: 40px;
+    color: orange;
+}
+.icon-right i {
+    padding: 10px;
+}
